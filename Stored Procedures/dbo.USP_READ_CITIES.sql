@@ -14,7 +14,8 @@ BEGIN
 	SET NOCOUNT ON;
 
 	SELECT		CT.[IDCity] AS [IDCity],
-				CT.[Description] AS [Description]
+				CT.[Description] AS [Description],
+				CT.CityCode
 	FROM		[TB_City] AS CT;
 
 END
