@@ -1,0 +1,2 @@
+CREATE USER [giancarlo] WITHOUT LOGIN
+GO
